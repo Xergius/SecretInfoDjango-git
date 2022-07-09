@@ -10,8 +10,8 @@
   - ...
 5. Add variables instead of secret info (Ex. settings.py):
   - SECRET_KEY = **config('SECRET-KEY')**  
-  -'NAME': **config('USER-NAME')**,
-  -'USER': **config('DB-NAME')**,
+  - 'NAME': **config('USER-NAME')**
+  - 'USER': **config('DB-NAME')**
 6. pip install python-decouple
 7. Add: from decouple import config]
 8. Test.
