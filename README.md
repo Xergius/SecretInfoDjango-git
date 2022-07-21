@@ -1,5 +1,5 @@
 # SecretInfoDjango-git
-##How to hide code in repos
+##How to hide code in repos (Experimental)
 1. Create .env file in the root directory
 2. If not present, create .gitignore file in the root directory.
 3. Add ".env" line into .gitignore
